@@ -7,7 +7,7 @@ export const Header = () => {
           <Link href={"/"}>
             <button className="cursor-pointer hover-glow">Dashboard</button>
           </Link>
-          <Link href={""}>
+          <Link href={"/friends"}>
             <button className="cursor-pointer hover-glow">Friends</button>
           </Link>
           <Link href={"/projects"}>

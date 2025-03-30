@@ -13,12 +13,12 @@ export const Cards = () => {
         <div
           key={card.id}
           style={{ backgroundImage: `url(${card.background})` }}
-          className="relative w-[240px] h-[300px] rounded-[10px] bg-cover bg-center group overflow-hidden"
+          className="relative w-[230px] min-h-[300px] rounded-[10px] bg-cover bg-center group overflow-hidden"
         >
           {/* Аватар */}
-          <div className="flex flex-col items-center gap-1">
+          <div className="flex flex-col items-center gap-1 mt-4">
             <img
-              className="w-[90px] h-[90px] object-cover"
+              className="w-[90px] h-[90px] rounded-[54px] object-cover"
               src={card.avatar}
               alt={card.avatarAlt}
             />

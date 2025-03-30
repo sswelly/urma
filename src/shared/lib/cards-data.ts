@@ -1,7 +1,7 @@
 export const cardsData = [
     {
       id: 1,
-      avatar: "avatar2.png",
+      avatar: "avatar3.jpg",
       avatarAlt: "avatar",
       statusIcon: "offline.svg",
       statusText: "offline",
@@ -11,7 +11,7 @@ export const cardsData = [
     },
     {
       id: 2,
-      avatar: "avatar2.png",
+      avatar: "avatar4.jpg",
       avatarAlt: "User Avatar 2",
       statusIcon: "offline.svg",
       statusText: "Offline",

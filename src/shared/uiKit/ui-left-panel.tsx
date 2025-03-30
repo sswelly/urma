@@ -21,7 +21,7 @@ export const LeftPanel = () => {
         {/* Donate Button */}
         <div className="mt-auto">
           <Link href={""}>
-            <button className="cursor-pointer w-full p-4 bg-[#777777] rounded-[12px] flex items-center gap-2.5 justify-center hover-glow">
+            <button className="cursor-pointer w-full p-4 bg-[#E08E30] rounded-[12px] flex items-center gap-2.5 justify-center hover-glow-donate">
               <img src="moneybag.svg" alt="" />
               <span className="text-[16px] text-[white] font-bold">Donate</span>
             </button>

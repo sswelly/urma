@@ -10,6 +10,9 @@
   .glow {
     @apply relative text-white after:content-[''] after:absolute after:inset-0 after:bg-current after:blur-lg after:opacity-10 transition duration-300 ease-in-out;
   }
+  .hover-glow-donate {
+    @apply relative text-[#E08E30] hover:after:content-[''] hover:after:absolute hover:after:inset-0 hover:after:bg-current hover:after:blur-lg hover:after:opacity-20 transition duration-300 ease-in-out;
+  }
 
 }
 
