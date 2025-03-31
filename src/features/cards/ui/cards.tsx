@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { LoadCardsFromJson } from "@/features/cards/model/use-cards";
 import { cardsData } from "@/shared/lib/cards-data";
+import Link from "next/link";
 
 export const Cards = () => {
   const [cards] = useState(LoadCardsFromJson(cardsData));
@@ -41,7 +42,15 @@ export const Cards = () => {
             <p className="text-[10px] text-white group-hover:opacity-100 transition-opacity duration-300">
               {card.description}
             </p>
+            {/* Добавление кнопки */}
+            <Link href={""}>
+              <button className="cursor-pointer mt-3 mb-2 w-[170px] h-[42px] bg-[#777777] text-white text-[12px] font-bold rounded-[8px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Перейти
+              </button>
+            </Link>
+
           </div>
+
         </div>
       ))}
     </div>
