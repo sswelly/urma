@@ -35,21 +35,23 @@ export const Cards = () => {
           </div>
 
           {/* Текст описания */}
-          <div className="absolute bottom-0 left-0 w-full h-0 rounded-t-[20px] backdrop-blur-[56px] bg-gradient-to-b from-[rgba(126,126,126,0.116)] to-[rgba(126,126,126,0.4)] text-center overflow-hidden transition-all duration-300 ease-in-out group-hover:h-[130px]">
-            <p className="text-[16px] text-white font-medium mt-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              {card.title}
-            </p>
-            <p className="text-[10px] text-white group-hover:opacity-100 transition-opacity duration-300">
-              {card.description}
-            </p>
-            {/* Добавление кнопки */}
-            <Link href={""}>
-              <button className="cursor-pointer mt-3 mb-2 w-[170px] h-[42px] bg-[#777777] text-white text-[12px] font-bold rounded-[8px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                Перейти
-              </button>
-            </Link>
+          <div
+  className="absolute bottom-0 left-0 w-full max-h-0 rounded-t-[20px] backdrop-blur-[56px] bg-gradient-to-b from-[rgba(126,126,126,0.116)] to-[rgba(126,126,126,0.4)] text-center overflow-hidden transition-all duration-400 ease-in-out group-hover:max-h-[300px]"
+>
+  <p className="text-[16px] text-white font-medium mt-5 opacity-0 group-hover:opacity-100 transition-opacity duration-400">
+    {card.title}
+  </p>
+  <p className="text-[10px] text-center text-white group-hover:opacity-100 transition-opacity duration-400">
+    {card.description}
+  </p>
+  {/* Добавление кнопки */}
+  <Link href={""}>
+    <button className="cursor-pointer mt-3 mb-2 w-[170px] h-[42px] bg-[#777777] text-white text-[12px] font-bold rounded-[8px] opacity-0 group-hover:opacity-100 transition-opacity duration-400">
+      Перейти
+    </button>
+  </Link>
+</div>
 
-          </div>
 
         </div>
       ))}
