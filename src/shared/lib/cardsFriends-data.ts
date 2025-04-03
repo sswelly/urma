@@ -1,4 +1,4 @@
-export const cardsData = [
+export const cardsFriendsData = [
     {
       id: 1,
       avatar: "avatar3.jpg",
@@ -31,16 +31,6 @@ export const cardsData = [
     },
     {
       id: 4,
-      avatar: "avatar2.png",
-      avatarAlt: "User Avatar 3",
-      statusIcon: "offline.svg",
-      statusText: "offline",
-      title: "User Three",
-      description: "User three's description goes here",
-      background: "background.png",
-    },
-    {
-      id: 5,
       avatar: "avatar2.png",
       avatarAlt: "User Avatar 3",
       statusIcon: "offline.svg",

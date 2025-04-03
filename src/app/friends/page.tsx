@@ -1,4 +1,4 @@
-import { Cards } from "@/features/cards/ui/cards"
+import { CardsFriends } from "@/features/cardsFriends/ui/cardsFriends"
 import { LeftPanel } from "@/shared"
 
 export default function FriendsPage () {
@@ -9,7 +9,7 @@ export default function FriendsPage () {
 
             <div className="w-full p-4 h-auto bg-[#131313] border-[#1B1B1B] border-1 rounded-2xl">
                 <div>
-                    <Cards />
+                    <CardsFriends />
                 </div>
             </div>
         </div>
